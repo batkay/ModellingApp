@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/thoma/Documents/Code/ModellingApp/Build",
+  "command": "C:/msys64/mingw64/bin/c++.exe  @CMakeFiles/Test.dir/includes_CXX.rsp -g -o CMakeFiles/Test.dir/Main.cpp.obj -c C:/Users/thoma/Documents/Code/ModellingApp/Main.cpp",
+  "file": "C:/Users/thoma/Documents/Code/ModellingApp/Main.cpp"
+}
+]
