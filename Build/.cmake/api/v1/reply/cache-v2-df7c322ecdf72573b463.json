@@ -1251,10 +1251,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/Users/thoma/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{

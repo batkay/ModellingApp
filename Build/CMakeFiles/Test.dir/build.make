@@ -69,29 +69,29 @@ include CMakeFiles/Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Test.dir/flags.make
 
-CMakeFiles/Test.dir/Main.cpp.obj: CMakeFiles/Test.dir/flags.make
-CMakeFiles/Test.dir/Main.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
-CMakeFiles/Test.dir/Main.cpp.obj: ../Main.cpp
-CMakeFiles/Test.dir/Main.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/thoma/Documents/Code/ModellingApp/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/Main.cpp.obj"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/Main.cpp.obj -MF CMakeFiles/Test.dir/Main.cpp.obj.d -o CMakeFiles/Test.dir/Main.cpp.obj -c C:/Users/thoma/Documents/Code/ModellingApp/Main.cpp
+CMakeFiles/Test.dir/src/Main.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Main.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Main.cpp.obj: ../src/Main.cpp
+CMakeFiles/Test.dir/src/Main.cpp.obj: CMakeFiles/Test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/thoma/Documents/Code/ModellingApp/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/src/Main.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test.dir/src/Main.cpp.obj -MF CMakeFiles/Test.dir/src/Main.cpp.obj.d -o CMakeFiles/Test.dir/src/Main.cpp.obj -c C:/Users/thoma/Documents/Code/ModellingApp/src/Main.cpp
 
-CMakeFiles/Test.dir/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Main.cpp.i"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/thoma/Documents/Code/ModellingApp/Main.cpp > CMakeFiles/Test.dir/Main.cpp.i
+CMakeFiles/Test.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Main.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/thoma/Documents/Code/ModellingApp/src/Main.cpp > CMakeFiles/Test.dir/src/Main.cpp.i
 
-CMakeFiles/Test.dir/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Main.cpp.s"
-	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/thoma/Documents/Code/ModellingApp/Main.cpp -o CMakeFiles/Test.dir/Main.cpp.s
+CMakeFiles/Test.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Main.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/thoma/Documents/Code/ModellingApp/src/Main.cpp -o CMakeFiles/Test.dir/src/Main.cpp.s
 
 # Object files for target Test
 Test_OBJECTS = \
-"CMakeFiles/Test.dir/Main.cpp.obj"
+"CMakeFiles/Test.dir/src/Main.cpp.obj"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
 
-Test.exe: CMakeFiles/Test.dir/Main.cpp.obj
+Test.exe: CMakeFiles/Test.dir/src/Main.cpp.obj
 Test.exe: CMakeFiles/Test.dir/build.make
 Test.exe: C:/Users/thoma/vcpkg/installed/x64-windows/debug/lib/SDL2d.lib
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
